@@ -15,7 +15,7 @@ public class hollow_rhombus {
         System.out.print("  ");
       }
       for (int j = 1; j <= n; j++) {
-        if (i == 1 || j == 1 || j == n || i == n) {
+        if (i == 1 || j == 1 || j == n ||   i == n) {
           System.out.print(" *");
         } else {
           System.out.print("  ");
